@@ -27,4 +27,9 @@ public class AppTest
     public void encuentraLogger(){
         assertTrue(LogManager.getLogger(AppTest.class)!=null);
     }
+
+    @Test
+    public void pruebaMetodoMessages(){
+        App.messages();
+    }
 }
