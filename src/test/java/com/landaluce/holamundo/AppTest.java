@@ -32,4 +32,9 @@ public class AppTest
     public void pruebaMetodoMessages(){
         App.messages();
     }
+
+    @Test
+    public void testMainMethod(){
+        App.main(null);
+    }
 }
